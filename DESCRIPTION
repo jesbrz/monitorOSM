@@ -16,7 +16,9 @@ Depends:
     R (>= 3.5)
 Imports: 
     compareDF,
-    osmdata (>= 0.2.1)
+    httr2,
+    osmdata (>= 0.2.1),
+    xml2
 Suggests: 
     testthat (>= 3.0.0),
     usethis
