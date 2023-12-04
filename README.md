@@ -77,8 +77,9 @@ ca:Eliminat
 </tbody>
 </table>
 
-També es mostra quins conjunts de canvis han trencat les etiquetes amb
-enllaços per si es vol deixar comentaris.
+Tamén mostra que conxuntos de cambios teñen etiquetas rotas 
+con ligazóns se queres deixar comentarios.
+
 
 ## Afegir nous objectes a les bases de dades
 
