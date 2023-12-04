@@ -83,37 +83,28 @@ con ligazóns se queres deixar comentarios.
 
 ## Engadir novos obxectos ás bases de datos
 
-Si voleu afegir objectes amb les seves etiquetes a les bases de dades,
-podeu obrir un
-[tiquet](https://github.com/OSM-Catalan/monitorOSM/issues) o podeu
-provar de fer un PR amb les instruccions que trobareu a
-[aquí](https://osm-catalan.github.io/monitorOSM/data-raw/README.html).
-Fora bo que els estats de referència dels objectes siguin consensuats
-amb la [Comunitat d’OpenStreetmap en
-català](https://wiki.openstreetmap.org/wiki/WikiProject_Catalan#Canals_de_comunicaci%C3%B3_i_mitjans_de_difusi%C3%B3).
+Se queres engadir obxectos coas súas etiquetas ás bases de datos, podes abrir un
+[ticket](https://github.com/OSM-Catalan/monitorOSM/issues) ou podes tentar facer un PR coas instrucións que atoparás
+en [aquí](https://osm-catalan.github.io/monitorOSM/data-raw/README.html).
 
-## Paquet d’R
+## Paquete de R
 
-La consulta, comparació amb bases de dades de referència i renderització
-de la web es fan amb un paquet d’[R](https://cran.r-project.org/) i
-accions de github. El paquet també inclou funcions per restaurar els
-objectes de manera ràpida, però com a projecte comunitari, és important
-intentar parlar amb els usuaris que discrepen de les bases de dades de
-referència. Vegeu la [documentació del paquet
-d’R](https://osm-catalan.github.io/monitorOSM/docs/reference/) per més
-detalls.
+A consulta, a comparación con bases de datos de referencia e a representación da web realízanse cun paquete
+desde [R](https://cran.r-project.org/) e accións de github. O paquete tamén inclúe funcións para restaurar obxectos de
+xeito rápido, pero como proxecto comunitario, é importante tentar falar con usuarios que non estean de acordo coas bases
+de datos de referencia. Consulte a [documentación do paquete R] (https://osm-catalan.github.io/monitorOSM/docs/reference/)
+para máis detalles.
 
-### Exemple de restauració
+### Exemplo de restauración
 
-Instal·leu el paquet d’R:
+Instala o paquete R:
 
 ``` r
-# install.packages("remotes")
-remotes::install_github("OSM-Catalan/monitorOSM")
+# install.packages("devtools")
+devtools::install_github("OSM-Catalan/monitorOSM")
 ```
 
-Restauració de les etiquetes `name` i `wikipedia` de les comarques del
-País Valencià:
+Restauración das etiquetas `nome` e `wikipedia` das comarcas do País Valenciano:
 
 ``` r
 library(monitorOSM)
@@ -124,5 +115,4 @@ id <- modifica_etiquetes_osm(
   comentari = "Restaura els noms de les comarques dels País Valencià", hashtags = "monitorOSM"
 )
 ```
-
-Retorna l’identificador del conjunt de canvis.
+Devolve o identificador do conxunto de cambios.
