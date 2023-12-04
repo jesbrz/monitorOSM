@@ -1,17 +1,17 @@
 Type: Package
 Package: monitorOSM
-Title: Monitor d'OSM
+Title: Monitor de OSM
 Version: 0.0.3
 Authors@R: c(
     person("Joan", "Maspons", , "joanmaspons@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-2286-8727"))
   )
 Maintainer: Joan Maspons <joanmaspons@gmail.com>
-Description: Monitoreja objectes d'OpenStreetMap i informa si hi ha canvis.
+Description: Monitorea obxectos de OpenStreetMap e informa si houbo cambios.
 License: GPL (>= 3)
 License_is_FOSS: yes
 URL: https://github.com/OSM-Catalan/monitorOSM, https://osm-catalan.github.io/monitorOSM/
-BugReports: https://github.com/OSM-Catalan/monitorOSM/issues
+BugReports: https://github.com/jesbrz/monitorOSM_GZ/issues
 Depends:
     R (>= 3.5)
 Imports: 
@@ -29,9 +29,9 @@ Remotes:
     jmaspons/osmapiR
 Config/testthat/edition: 3
 Encoding: UTF-8
-Language: ca
+Language: gl
 LazyData: true
 LazyDataCompression: xz
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-X-schema.org-keywords: open street map, openstreetmap, OSM, topònims, monitor
+X-schema.org-keywords: open street map, openstreetmap, OSM, toponimia, monitor
