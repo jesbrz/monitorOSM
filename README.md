@@ -49,10 +49,10 @@ wikipedia
 \+
 </td>
 <td style="padding: .2em; color: #52854C; background-color: #ffffff; text-align: center;">
-nom a OSM
+nome en OSM
 </td>
 <td style="padding: .2em; color: #999999; background-color: #ffffff; text-align: center;">
-Sense canvis
+Sen cambios
 </td>
 <td style="padding: .2em; color: #52854C; background-color: #ffffff; text-align: center;">
 </td>
