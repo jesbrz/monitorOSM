@@ -5,9 +5,9 @@ lang: ca
 deploy:
   install_metadata: true
 reference:
-- title: "Funcions"
+- title: "Funcións"
   contents:
-  - lacks_concepts("Bases de dades de referència")
-- title: "Bases de dades de referència"
+  - lacks_concepts("Bases de datos de referencia")
+- title: "Bases de datos de referencia"
   contents:
-  - has_concept("Bases de dades de referència")
+  - has_concept("Bases de datos de referencia")
