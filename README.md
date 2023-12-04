@@ -14,15 +14,11 @@ publica](https://github.com/OSM-Catalan/monitorOSM/actions/workflows/quarto-publ
 
 <!-- badges: end -->
 
-`monitorOSM` és un repositori que serveix per monitoritzar canvis a
-[OpenStreetMap](http://www.openstreemap.com) comparant els objectes amb
-[bases de dades de
-referència](https://github.com/OSM-Catalan/monitorOSM/tree/main/data-raw).
+`monitorOSM` é un repositorio usado para supervisar os cambios en [OpenStreetMap](http://www.openstreemap.com)
+comparando obxectos con [bases de datos de referencia](https://github.com/OSM-Catalan/monitorOSM/tree/main/data-raw).
 
-Podeu veure els informes que s’actualitzen diàriament a
-<https://osm-catalan.github.io/monitorOSM>. Els informes de canvis
-mostren taules amb l’estat de les etiquetes a OSM i a les bases de dades
-de referència:
+Podes ver os informes que se actualizan diariamente en <https://osm-catalan.github.io/monitorOSM>. Os informes dos 
+cambios mostran táboas co estado das etiquetas en OSM e nas bases de datos de referencia:
 
 <table class="gmisc_table" style="border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;">
 <thead>
