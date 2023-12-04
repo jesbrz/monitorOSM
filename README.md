@@ -27,10 +27,10 @@ cambios mostran táboas co estado das etiquetas en OSM e nas bases de datos de r
 osm_url
 </th>
 <th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">
-canvi
+cambio
 </th>
 <th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">
-name:ca
+name:gl
 </th>
 <th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">
 name
