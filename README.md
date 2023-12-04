@@ -65,13 +65,13 @@ Sense canvis
 \-
 </td>
 <td style="padding: .2em; color: #FC4E07; background-color: #ffffff; border-bottom: 2px solid grey; text-align: center;">
-nom de referència
+nome de referencia
 </td>
 <td style="padding: .2em; color: #999999; background-color: #ffffff; border-bottom: 2px solid grey; text-align: center;">
-Sense canvis
+Sen cambios
 </td>
 <td style="padding: .2em; color: #FC4E07; background-color: #ffffff; border-bottom: 2px solid grey; text-align: center;">
-ca:Eliminat
+gl:Eliminado
 </td>
 </tr>
 </tbody>
@@ -81,7 +81,7 @@ Tamén mostra que conxuntos de cambios teñen etiquetas rotas
 con ligazóns se queres deixar comentarios.
 
 
-## Afegir nous objectes a les bases de dades
+## Engadir novos obxectos ás bases de datos
 
 Si voleu afegir objectes amb les seves etiquetes a les bases de dades,
 podeu obrir un
